@@ -7,7 +7,7 @@ app.use((req,res,next)=>{
     next();
 });
 //route 
-app.get("/ganteng",(_req,res)=>{
+app.get("/api/ganteng",(_req,res)=>{
     res.send("ep");
 });
 
