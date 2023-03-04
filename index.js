@@ -1,6 +1,7 @@
 import express from "express";
 const app = express();
-
+app.use(express.static("public"));
+app.use(express.json());
 //middleware
 app.use((req,res,next)=>{
     console.log("ada req masuk");
