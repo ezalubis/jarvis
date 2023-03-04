@@ -8,7 +8,7 @@ app.use((req,res,next)=>{
 });
 //route 
 app.get("/api/ganteng",(_req,res)=>{
-    res.send("ep");
+    res.send("Aku sayang jenong...love you co muchh");
 });
 
 app.listen(3000,()=>{
